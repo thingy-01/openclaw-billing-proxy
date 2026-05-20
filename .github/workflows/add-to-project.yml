@@ -9,7 +9,7 @@ jobs:
     name: Add issue to Dev Tracker
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v1
+      - uses: actions/add-to-project@v2.0.0
         with:
           project-url: https://github.com/users/thingy-01/projects/5
           github-token: ${{ secrets.PROJECTS_PAT }}
